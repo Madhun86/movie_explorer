@@ -56,13 +56,14 @@ movie_explorer/
 ```
 movie_explorer/
 │
-├── frontend/
-│   ├── src/
-│   │   ├── components/        # Reusable UI components (buttons, cards, etc.)
-│   │   ├── pages/             # React pages for various views (Home, Movie Details, etc.)
-│   │   ├── hooks/             # Custom React hooks
-│   │   └── services/          # API calls and logic to interact with the backend
-│   ├── public/                # Static files like images and icons
+├── movie-explorer-frontend
+├   ├─── frontend/
+│   │   ├── src/
+│   │   │   ├── components/        # Reusable UI components (buttons, cards, etc.)
+│   │   │   ├── pages/             # React pages for various views (Home, Movie Details, etc.)
+│   │   │   ├── routers/             # Custom React routers
+│   │   │   └── services/          # API calls and logic to interact with the backend
+│   │   ├── public/                # Static files like images and icons
 │   ├── Dockerfile             # Dockerfile to containerize frontend
 │   ├── package.json           # Frontend dependencies
 │   ├── vite.config.js         # Vite configuration file
